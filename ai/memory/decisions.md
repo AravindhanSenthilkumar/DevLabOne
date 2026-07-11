@@ -32,4 +32,10 @@ Record important company, product, architecture, security, and delivery decision
 - Context: CEO decided on deployment options and chose to keep the application locally for further feature enhancements rather than deploying it immediately.
 - Decision: Postpone Hugging Face and Vercel cloud deployments. Maintain active local development servers for addition of new features.
 - Consequences: Focus will be on local prototyping, additional visual components, advanced model refinements, or mock data streams.
-- Owner: CEO
+
+### 2026-07-11 - Deploy Native App Package
+- Status: Accepted
+- Context: The desktop application has been built and wrapped using Electron. We need to decide whether to package it for distribution.
+- Decision: Pack the Electron application into a native macOS .dmg installer.
+- Consequences: Provides a standalone desktop app that runs without local development terminal commands.
+- Owner: Solution Architect

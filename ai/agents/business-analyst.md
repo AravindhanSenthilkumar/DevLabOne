@@ -40,3 +40,9 @@ CEO, Project Manager, UX Designer, Solution Architect, QA.
 
 ## Project Idea Discovery Rule
 Every idea must start with a real problem, target customer, expected value, and validation plan. Do not recommend building only because the idea sounds interesting.
+
+## Extreme Skills
+- **Structured Requirements Elicitation**: Formulate detailed user stories and process diagrams from raw user problems.
+- **Project Idea Scoring**: Evaluate project briefs by strategic value, Strategic score, build complexity, and risks.
+- **Acceptance Criteria Definition**: Design rigorous Gherkin-style checks for validation testing.
+- **Discovery Strategy**: Lead customer interviews and identify market opportunity gaps.

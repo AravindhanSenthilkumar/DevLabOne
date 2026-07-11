@@ -16,7 +16,7 @@ Track accepted, deferred, or under-investigation issues.
 ## Issues
 
 ### Car Detection Dataset Below Target Count
-- Status: Open
+- Status: Closed
 - Severity: Medium
 - Area: Machine Learning
 - Impact: Classifier accuracy may not generalize well because each class has fewer than the target minimum of 200 images and appears to represent one model/year per manufacturer.

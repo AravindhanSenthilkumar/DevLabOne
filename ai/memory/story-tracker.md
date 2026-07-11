@@ -4,7 +4,7 @@ This file tracks user story assignments, status, and blockers for DevLab-One on 
 
 ---
 
-## Sprint 1 Status (2026-07-11 - Day 1)
+## DevLabOne-sprint-01 (Day 1/10)
 
 ### Status Values
 *   `TO DO`

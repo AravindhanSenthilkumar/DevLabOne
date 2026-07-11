@@ -30,3 +30,9 @@ CEO, Scrum Master, Business Analyst, Solution Architect, QA, DevOps.
 - Blockers and dependencies.
 - Required decisions from CEO.
 - Resource gaps, including AI-agent capacity.
+
+## Extreme Skills
+- **Milestone & Critical Path Planning**: Track workspace tasks, project deliverables, and execution deadlines.
+- **Resource Orchestration**: Estimate and assign AI agent roles to optimize development bandwidth.
+- **Stakeholder Sync & Reporting**: Maintain real-time project logs, daily standup summaries, and timeline indicators.
+- **Scope Control**: Prevent feature creep, enforce project limits, and track carryovers between sprints.

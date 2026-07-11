@@ -31,3 +31,9 @@ Business Analyst, Solution Architect, Backend, QA, DevOps, Documentation.
 - Train ResNet50 transfer learning classifier for five car manufacturers.
 - Compare performance at 10, 20, 30, 40, and 50 epochs.
 - Recommend best model and confidence threshold for known versus unknown manufacturer.
+
+## Extreme Skills
+- **YOLO Detection Architectures**: Configure object detectors, filter target labels, and define crop paddings.
+- **ResNet50 Transfer Learning**: Preprocess datasets, apply image augmentations, and run comparative training runs.
+- **Accuracy Auditing**: Analyze confusion matrices, plot loss curves, and select best epochs.
+- **Dataset Audit & Cleaning**: Identify dataset splits bias, remove duplicates, and check image formats.

@@ -31,3 +31,9 @@ Project Manager, Business Analyst, Solution Architect, Security, Documentation.
 - Investment or budget needs.
 - Company improvements and feedback.
 - Number and type of AI agents required for active or proposed projects.
+
+## Extreme Skills
+- **Strategic Scaling & Vision**: Design multi-agent workspace architectures and map cross-functional priorities.
+- **Resource & Investment Allocation**: Approve budgets, tool platform acquisitions, and agent capability investments.
+- **Strategic Risk Mitigation**: Identify product timeline drift, team blockers, and market strategic shifts.
+- **High-Stake Decision Engineering**: Facilitate company-level executive meetings with definitive outcomes and clear actions.

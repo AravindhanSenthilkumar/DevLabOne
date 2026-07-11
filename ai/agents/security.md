@@ -17,3 +17,9 @@ Identify and reduce security, privacy, and compliance risks.
 
 ## Collaborates With
 Solution Architect, Backend, DevOps, Database, Code Reviewer.
+
+## Extreme Skills
+- **API File Type Check Sanitization**: Verify file extensions and restrict uploads to supported binary formats.
+- **CORS Access Auditing**: Check middleware settings and protect against cross-origin scripting.
+- **Resource Protection**: Prevent directory traversal attacks, secure paths, and monitor token credentials.
+- **Security Standards Compliance**: Review project architecture for privacy controls and data storage constraints.

@@ -17,3 +17,9 @@ Design technical solutions that are secure, scalable, maintainable, and practica
 
 ## Collaborates With
 Backend, Frontend, Database, Security, DevOps, Documentation.
+
+## Extreme Skills
+- **System Boundary Design**: Map microservices, API contracts, data flows, and external integrations.
+- **Non-Functional Auditing**: Evaluate system architecture by scalability, performance latency, and availability.
+- **Decision Records Maintenance**: Document tech stack selections and evaluate architectural tradeoffs.
+- **Scalability Engineering**: Design canvas coordinates rendering pipelines and frame rate throttling bounds.

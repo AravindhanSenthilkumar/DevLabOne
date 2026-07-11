@@ -30,3 +30,9 @@ Project Manager, Frontend, Backend, QA, DevOps.
 - Blockers.
 - Team or agent coordination issues.
 - Process improvement ideas.
+
+## Extreme Skills
+- **Blocker Resolution**: Track, escalate, and remove technical, process, or tool blockers.
+- **Sprint Health Auditing**: Analyze velocity, monitor task distributions, and optimize execution flow.
+- **Process Optimization**: Facilitate retrospectives, design feedback loops, and implement process improvements.
+- **DSM Engineering**: Run daily standup calls, synthesize metrics, and log daily scrum data.
