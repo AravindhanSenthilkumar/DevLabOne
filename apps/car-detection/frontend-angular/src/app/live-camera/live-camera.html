@@ -1,0 +1,91 @@
+<div class="live-container">
+  <!-- Control Bar -->
+  <div class="control-bar">
+    <div class="action-buttons">
+      @if (!isMonitoring()) {
+        <button class="btn btn-gradient" (click)="startMonitoring()">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn-icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+          </svg>
+          Start Camera Stream
+        </button>
+      } @else {
+        <button class="btn btn-danger" (click)="stopMonitoring()">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="btn-icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+          </svg>
+          Stop Camera Stream
+        </button>
+      }
+    </div>
+
+    @if (isMonitoring()) {
+      <div class="stats-panel">
+        <span class="stat-badge">Stream FPS: {{ fps() }}</span>
+        <span class="stat-badge">API Latency: {{ latency() }}ms</span>
+      </div>
+    }
+  </div>
+
+  @if (cameraError()) {
+    <div class="error-banner">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="error-icon">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+      </svg>
+      <span>{{ cameraError() }}</span>
+    </div>
+  }
+
+  <div class="live-grid">
+    <!-- Viewport Container -->
+    <div class="panel viewport-panel">
+      <div class="panel-header">
+        <h2>HTML5 Live Stream Feed</h2>
+        <span class="subtitle">Real-time frames processing via Django YOLOv8 / ResNet50 Pipeline</span>
+      </div>
+      
+      <div class="panel-body">
+        <div class="video-container">
+          <video #videoElement autoplay playsinline muted [class.hidden]="!isMonitoring()"></video>
+          <canvas #overlayCanvas [class.hidden]="!isMonitoring()"></canvas>
+          
+          @if (!isMonitoring()) {
+            <div class="feed-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="feed-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z" />
+              </svg>
+              <h3>Camera Stream Inactive</h3>
+              <p>Click "Start Camera Stream" above to activate live CCTV inspection</p>
+            </div>
+          }
+        </div>
+      </div>
+    </div>
+
+    <!-- Scrolling Activity Logs Terminal -->
+    <div class="panel log-panel">
+      <div class="panel-header">
+        <h2>Live Event Log Feed</h2>
+        <span class="subtitle">Latest detections and status updates</span>
+      </div>
+
+      <div class="panel-body log-body">
+        @if (logMessages().length === 0) {
+          <div class="empty-logs">
+            <p class="console-line">SYSTEM: Terminal initialized. Waiting for stream input...</p>
+          </div>
+        } @else {
+          <div class="console-logs">
+            @for (log of logMessages(); track $index) {
+              <div class="console-line" [class.line-unknown]="log.isUnknown">
+                <span class="timestamp">[{{ log.timestamp }}]</span>
+                <span class="message">{{ log.message }}</span>
+              </div>
+            }
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>

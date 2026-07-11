@@ -1,0 +1,34 @@
+<div class="app-container">
+  <!-- Navigation Header Bar -->
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="logo-icon">
+          <path d="M18 1.5c2.9 0 5.25 2.35 5.25 5.25v10.5c0 2.9-2.35 5.25-5.25 5.25H6c-2.9 0-5.25-2.35-5.25-5.25V6.75C.75 3.85 3.1 1.5 6 1.5h12Zm-1.8 15v-6.75L12 13.5l-4.2-3.75v6.75h-2.4V5.25h2.4l4.2 3.75 4.2-3.75h2.4v11.25h-2.4Z"/>
+        </svg>
+      </div>
+      <span class="brand-name">DevLab-One <span class="gradient-text">Car Detector</span></span>
+    </div>
+
+    <nav class="nav-links">
+      <a routerLink="/dashboard" routerLinkActive="active-nav" class="nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nav-icon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+        </svg>
+        Dashboard
+      </a>
+      <a routerLink="/live-camera" routerLinkActive="active-nav" class="nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nav-icon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z" />
+        </svg>
+        Live Camera
+      </a>
+    </nav>
+  </header>
+
+  <!-- Router Outlet Wrapper -->
+  <main class="main-content">
+    <router-outlet />
+  </main>
+</div>

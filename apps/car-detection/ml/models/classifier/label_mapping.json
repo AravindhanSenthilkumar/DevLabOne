@@ -1,0 +1,31 @@
+{
+  "data_dir": "apps/car-detection/tests/sample-images",
+  "classes": {
+    "0": "Audi S6 Sedan 2011",
+    "1": "BMW X6 SUV 2012",
+    "2": "Jeep Compass SUV 2012",
+    "3": "Suzuki SX4 Sedan 2012",
+    "4": "Tesla Model S Sedan 2012"
+  },
+  "manufacturer_labels": {
+    "0": "Audi",
+    "1": "BMW",
+    "2": "Jeep",
+    "3": "Suzuki",
+    "4": "Tesla"
+  },
+  "train_count": 290,
+  "validation_count": 64,
+  "test_count": 64,
+  "device": "cpu",
+  "pretrained": true,
+  "freeze_backbone": false,
+  "augmentation": [
+    "resize 256x256",
+    "random resized crop 224",
+    "horizontal flip",
+    "rotation 12 degrees",
+    "color jitter",
+    "ImageNet normalization"
+  ]
+}

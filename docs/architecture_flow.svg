@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <!-- Definitions for gradients, fonts, and marker arrows -->
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
+      text {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      }
+      .title { font-weight: 800; font-size: 24px; fill: #FFFFFF; }
+      .subtitle { font-weight: 400; font-size: 14px; fill: #9CA3AF; }
+      .section-header { font-weight: 700; font-size: 16px; fill: #6366F1; text-transform: uppercase; letter-spacing: 1px; }
+      .box-title { font-weight: 700; font-size: 14px; fill: #FFFFFF; }
+      .box-desc { font-weight: 400; font-size: 11px; fill: #9CA3AF; }
+      .box-tag { font-weight: 600; font-size: 9px; fill: #10B981; }
+      .arrow-label { font-weight: 600; font-size: 10px; fill: #818CF8; }
+      .badge-text { font-weight: 700; font-size: 10px; fill: #FFFFFF; }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <linearGradient id="secondary-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Arrow Marker Definition -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6366F1"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#10B981"/>
+    </marker>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="800" rx="16" fill="url(#bg-grad)"/>
+  <rect width="1200" height="800" rx="16" fill="none" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Canvas Header -->
+  <g transform="translate(50, 45)">
+    <text x="0" y="0" class="title">DevLab-One Car Detection &amp; Classification Flow</text>
+    <text x="0" y="22" class="subtitle">Architecture Wireframe &amp; Interactive Flow Diagram (Importable into Figma as vector frames)</text>
+    <rect x="1000" y="-15" width="100" height="24" rx="12" fill="url(#secondary-grad)"/>
+    <text x="1050" y="0" text-anchor="middle" class="badge-text">Sprint 1 MVP</text>
+  </g>
+
+  <!-- ==================== FRONTEND COLUMN (ANGULAR) ==================== -->
+  <g transform="translate(50, 120)">
+    <!-- Column Title -->
+    <text x="0" y="20" class="section-header">Frontend Clients (Angular App)</text>
+    <line x1="0" y1="30" x2="320" y2="30" stroke="#334155" stroke-width="1"/>
+
+    <!-- View 1 Card: Dashboard -->
+    <g transform="translate(0, 50)">
+      <rect width="320" height="180" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="320" height="40" rx="12" fill="url(#primary-grad)" stroke="none"/>
+      <rect width="320" height="20" y="20" fill="url(#primary-grad)" stroke="none"/>
+      <text x="15" y="24" class="box-title">Upload Dashboard (SPA View 1)</text>
+      
+      <!-- Sub-elements in Card -->
+      <g transform="translate(15, 60)">
+        <rect width="130" height="80" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+        <text x="65" y="45" text-anchor="middle" font-size="10" fill="#9CA3AF">Drag &amp; Drop Box</text>
+        
+        <rect x="160" y="0" width="130" height="80" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+        <text x="225" y="25" text-anchor="middle" font-size="9" fill="#10B981" font-weight="700">Classification Cards</text>
+        <text x="225" y="45" text-anchor="middle" font-size="8" fill="#9CA3AF">Audi (98%)</text>
+        <text x="225" y="60" text-anchor="middle" font-size="8" fill="#9CA3AF">Tesla (95%)</text>
+      </g>
+    </g>
+
+    <!-- View 2 Card: Live CCTV Monitoring -->
+    <g transform="translate(0, 260)">
+      <rect width="320" height="180" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="320" height="40" rx="12" fill="#1E293B" stroke="none"/>
+      <rect width="320" height="20" y="20" fill="#1E293B" stroke="none"/>
+      <text x="15" y="24" class="box-title">Live Camera CCTV View (SPA View 2)</text>
+      
+      <!-- Sub-elements in Card -->
+      <g transform="translate(15, 60)">
+        <rect width="150" height="80" rx="6" fill="#0F172A" stroke="#4F46E5" stroke-width="1.5"/>
+        <text x="75" y="45" text-anchor="middle" font-size="10" fill="#FFFFFF">HTML5 Video Stream</text>
+        <rect x="10" y="10" width="130" height="60" rx="4" fill="none" stroke="#10B981" stroke-dasharray="3,3" stroke-width="1"/>
+        
+        <rect x="170" y="0" width="120" height="80" rx="6" fill="#030712" stroke="#1E293B" stroke-width="1"/>
+        <text x="230" y="20" text-anchor="middle" font-size="9" fill="#F59E0B" font-weight="700">Live Status Console</text>
+        <text x="180" y="42" font-size="7" fill="#10B981" font-family="monospace">[06:36] Audi (98%)</text>
+        <text x="180" y="58" font-size="7" fill="#10B981" font-family="monospace">[06:38] Model loaded</text>
+      </g>
+    </g>
+
+    <!-- Client Service Component -->
+    <g transform="translate(0, 470)">
+      <rect width="320" height="110" rx="8" fill="#1E293B" stroke="#4F46E5" stroke-width="1"/>
+      <text x="15" y="25" class="box-title">CarDetectionService (TypeScript)</text>
+      <text x="15" y="48" font-size="10" fill="#9CA3AF">• detectImage(file: File) → POST Multipart</text>
+      <text x="15" y="68" font-size="10" fill="#9CA3AF">• detectFrame(blob: Blob) → POST frame data</text>
+      <text x="15" y="88" font-size="10" fill="#9CA3AF">• getModelInfo() → GET metadata configurations</text>
+    </g>
+  </g>
+
+  <!-- ==================== BACKEND COLUMN (DJANGO API) ==================== -->
+  <g transform="translate(440, 120)">
+    <!-- Column Title -->
+    <text x="0" y="20" class="section-header">API Endpoints (Django REST Server)</text>
+    <line x1="0" y1="30" x2="320" y2="30" stroke="#334155" stroke-width="1"/>
+
+    <!-- Endpoint Card: detectImage -->
+    <g transform="translate(0, 50)">
+      <rect width="320" height="150" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="320" height="35" rx="12" fill="#1E293B" stroke="none"/>
+      <rect width="320" height="15" y="20" fill="#1E293B" stroke="none"/>
+      <text x="15" y="22" class="box-title">/api/detect/image/</text>
+      <rect x="250" y="7" width="55" height="18" rx="4" fill="#10B981"/>
+      <text x="277" y="20" text-anchor="middle" font-size="8" font-weight="800" fill="#FFFFFF">POST</text>
+
+      <text x="15" y="58" font-size="11" fill="#FFFFFF" font-weight="600">Handler: DetectImageView</text>
+      <text x="15" y="78" font-size="10" fill="#9CA3AF">1. Parses uploaded vehicle image file</text>
+      <text x="15" y="94" font-size="10" fill="#9CA3AF">2. Runs YOLOv8 → filters: car, bus, truck</text>
+      <text x="15" y="110" font-size="10" fill="#9CA3AF">3. Crops, pads (+10%), runs ResNet50</text>
+      <text x="15" y="126" font-size="10" fill="#9CA3AF">4. Overlays bounding boxes &amp; returns image URL</text>
+    </g>
+
+    <!-- Endpoint Card: detectFrame -->
+    <g transform="translate(0, 220)">
+      <rect width="320" height="130" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="320" height="35" rx="12" fill="#1E293B" stroke="none"/>
+      <rect width="320" height="15" y="20" fill="#1E293B" stroke="none"/>
+      <text x="15" y="22" class="box-title">/api/detect/frame/</text>
+      <rect x="250" y="7" width="55" height="18" rx="4" fill="#10B981"/>
+      <text x="277" y="20" text-anchor="middle" font-size="8" font-weight="800" fill="#FFFFFF">POST</text>
+
+      <text x="15" y="58" font-size="11" fill="#FFFFFF" font-weight="600">Handler: FrameDetectionView</text>
+      <text x="15" y="78" font-size="10" fill="#9CA3AF">1. Receives raw binary camera frame</text>
+      <text x="15" y="94" font-size="10" fill="#9CA3AF">2. Executes fast detection &amp; classification</text>
+      <text x="15" y="110" font-size="10" fill="#9CA3AF">3. Returns array of boxes + label coordinates</text>
+    </g>
+
+    <!-- Endpoint Card: modelInfo / health -->
+    <g transform="translate(0, 370)">
+      <rect width="320" height="90" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="320" height="35" rx="12" fill="#1E293B" stroke="none"/>
+      <rect width="320" height="15" y="20" fill="#1E293B" stroke="none"/>
+      <text x="15" y="22" class="box-title">/api/model/info/ &amp; /health/</text>
+      <rect x="250" y="7" width="55" height="18" rx="4" fill="#6366F1"/>
+      <text x="277" y="20" text-anchor="middle" font-size="8" font-weight="800" fill="#FFFFFF">GET</text>
+
+      <text x="15" y="55" font-size="10" fill="#9CA3AF">• Returns training state, selected model version</text>
+      <text x="15" y="72" font-size="10" fill="#9CA3AF">• Lists valid manufacturer labels &amp; thresholds</text>
+    </g>
+  </g>
+
+  <!-- ==================== ML MODEL PIPELINE COLUMN ==================== -->
+  <g transform="translate(830, 120)">
+    <!-- Column Title -->
+    <text x="0" y="20" class="section-header">ML Pipeline &amp; Models</text>
+    <line x1="0" y1="30" x2="320" y2="30" stroke="#334155" stroke-width="1"/>
+
+    <!-- YOLOv8 Detector -->
+    <g transform="translate(0, 50)">
+      <rect width="320" height="120" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="320" height="35" rx="12" fill="#4F46E5" stroke="none"/>
+      <rect width="320" height="15" y="20" fill="#4F46E5" stroke="none"/>
+      <text x="15" y="22" class="box-title">YOLOv8 Detector (Object Localization)</text>
+      
+      <text x="15" y="58" font-size="10" fill="#9CA3AF">Weights: yolov8n.pt (Pre-trained)</text>
+      <text x="15" y="74" font-size="10" fill="#9CA3AF">Task: Filter classes [2: car, 5: bus, 7: truck]</text>
+      <text x="15" y="90" font-size="10" fill="#9CA3AF">Output: Crop area coordinates list</text>
+      <rect x="250" y="7" width="55" height="18" rx="4" fill="#059669"/>
+      <text x="277" y="19" text-anchor="middle" font-size="8" font-weight="800" fill="#FFFFFF">ACTIVE</text>
+    </g>
+
+    <!-- ResNet50 Classifier -->
+    <g transform="translate(0, 190)">
+      <rect width="320" height="150" rx="12" fill="url(#card-grad)" stroke="#4F46E5" stroke-width="2"/>
+      <rect width="320" height="35" rx="12" fill="url(#secondary-grad)" stroke="none"/>
+      <rect width="320" height="15" y="20" fill="url(#secondary-grad)" stroke="none"/>
+      <text x="15" y="22" class="box-title">ResNet50 Classifier (Fine-Tuning)</text>
+      
+      <text x="15" y="58" font-size="10" fill="#FFFFFF" font-weight="700">Weights Checkpoint: Best Epoch 50</text>
+      <text x="15" y="74" font-size="10" fill="#9CA3AF">Target: Audi, BMW, Jeep, Suzuki, Tesla</text>
+      <text x="15" y="90" font-size="10" fill="#9CA3AF">Confidence Threshold: &gt;= 0.75 for validation</text>
+      <text x="15" y="106" font-size="10" fill="#9CA3AF">Fallback: "Unknown Manufacturer" if &lt; 0.75</text>
+      <text x="15" y="122" font-size="10" fill="#10B981" font-weight="700">VERIFIED ACCURACY: 93.75%</text>
+      <rect x="250" y="7" width="55" height="18" rx="4" fill="#059669"/>
+      <text x="277" y="19" text-anchor="middle" font-size="8" font-weight="800" fill="#FFFFFF">ACTIVE</text>
+    </g>
+
+    <!-- Datasets Split Block -->
+    <g transform="translate(0, 360)">
+      <rect width="320" height="100" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1.5"/>
+      <rect width="320" height="35" rx="12" fill="#1E293B" stroke="none"/>
+      <rect width="320" height="15" y="20" fill="#1E293B" stroke="none"/>
+      <text x="15" y="22" class="box-title">Split Datasets (418 total images)</text>
+      
+      <text x="15" y="55" font-size="10" fill="#9CA3AF">• Training Split: 290 images (70%)</text>
+      <text x="15" y="72" font-size="10" fill="#9CA3AF">• Validation Split: 64 images (15%)</text>
+      <text x="15" y="89" font-size="10" fill="#9CA3AF">• Testing Split: 64 images (15%)</text>
+    </g>
+  </g>
+
+  <!-- ==================== INTERACTION ARROWS (VECTOR DATAFLOW) ==================== -->
+  <!-- Link 1: Upload Dashboard View to /api/detect/image/ -->
+  <path d="M 370 240 L 430 240" fill="none" stroke="#6366F1" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="400" y="230" text-anchor="middle" class="arrow-label">POST File</text>
+
+  <!-- Link 2: Live Monitoring View to /api/detect/frame/ -->
+  <path d="M 370 410 L 430 310" fill="none" stroke="#6366F1" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="390" y="340" text-anchor="middle" class="arrow-label">POST Blob</text>
+
+  <!-- Link 3: /api/detect/image/ to YOLOv8 -->
+  <path d="M 760 220 L 820 150" fill="none" stroke="#6366F1" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="795" y="170" text-anchor="middle" class="arrow-label">1. Detect</text>
+
+  <!-- Link 4: YOLOv8 to ResNet50 -->
+  <path d="M 990 170 L 990 180" fill="none" stroke="#10B981" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <text x="1000" y="180" class="arrow-label" fill="#10B981">2. Crop</text>
+
+  <!-- Link 5: ResNet50 to API response /api/detect/image/ -->
+  <path d="M 820 280 L 760 280" fill="none" stroke="#10B981" stroke-width="2" marker-end="url(#arrow-green)"/>
+  <text x="790" y="270" text-anchor="middle" class="arrow-label" fill="#10B981">3. Label</text>
+
+  <!-- Link 6: /api/detect/image/ returns data back to Angular Client Service -->
+  <path d="M 440 180 L 370 510" fill="none" stroke="#10B981" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow-green)"/>
+  <text x="375" y="490" class="arrow-label" fill="#10B981">JSON Response</text>
+</svg>

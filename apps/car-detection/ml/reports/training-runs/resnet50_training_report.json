@@ -1,0 +1,83 @@
+{
+  "elapsed_seconds": 4568.45,
+  "best_epoch": 50,
+  "best_metrics": {
+    "epoch": 50,
+    "train_loss": 0.01958857938358239,
+    "train_accuracy": 0.996551724137931,
+    "validation_loss": 0.053668036591261625,
+    "validation_accuracy": 0.984375,
+    "test_loss": 0.13265931839123368,
+    "test_accuracy": 0.9375
+  },
+  "metadata": {
+    "data_dir": "apps/car-detection/tests/sample-images",
+    "classes": {
+      "0": "Audi S6 Sedan 2011",
+      "1": "BMW X6 SUV 2012",
+      "2": "Jeep Compass SUV 2012",
+      "3": "Suzuki SX4 Sedan 2012",
+      "4": "Tesla Model S Sedan 2012"
+    },
+    "manufacturer_labels": {
+      "0": "Audi",
+      "1": "BMW",
+      "2": "Jeep",
+      "3": "Suzuki",
+      "4": "Tesla"
+    },
+    "train_count": 290,
+    "validation_count": 64,
+    "test_count": 64,
+    "device": "cpu",
+    "pretrained": true,
+    "freeze_backbone": false,
+    "augmentation": [
+      "resize 256x256",
+      "random resized crop 224",
+      "horizontal flip",
+      "rotation 12 degrees",
+      "color jitter",
+      "ImageNet normalization"
+    ]
+  },
+  "test_confusion_matrix": [
+    [
+      14,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      10,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      13,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      11
+    ]
+  ],
+  "metrics_csv": "apps/car-detection/ml/reports/training-runs/resnet50_training_metrics.csv",
+  "best_model": "apps/car-detection/ml/models/classifier/best_resnet50_classifier.pt"
+}
