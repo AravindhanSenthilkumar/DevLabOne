@@ -1,4 +1,0 @@
-Workspace Agent Prompt Run: what is the status ?
-
-Agent: Solution Architect
-Status: Simulated Offline output.
