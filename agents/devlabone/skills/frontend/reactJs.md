@@ -1,47 +1,9 @@
+---
+name: reactjs
+description: Expert knowledge of ReactJS including modern React architecture, functional components, JSX, hooks, state management, concurrent rendering, React Compiler, React Server Components, React 19 features, performance optimization, accessibility, security, testing, enterprise application architecture, component design systems, frontend engineering best practices, and scalable production-grade React applications. This skill enables AI agents to design, develop, review, debug, optimize, migrate, test, document, and maintain modern React applications following professional frontend engineering standards.
+---
+
 # ReactJS Skill
-
-## Name
-
-ReactJS
-
----
-
-## Description
-
-Expert knowledge of ReactJS including modern React architecture, functional components, JSX, hooks, state management, concurrent rendering, React Compiler, React Server Components, React 19 features, performance optimization, accessibility, security, testing, enterprise application architecture, component design systems, frontend engineering best practices, and scalable production-grade React applications.
-
-This skill enables AI agents to design, develop, review, debug, optimize, migrate, test, document, and maintain modern React applications following professional frontend engineering standards.
-
----
-
-## Category
-
-Frontend
-
----
-
-## Version
-
-Latest Stable React
-
----
-
-## Skill Type
-
-Frontend Library
-
----
-
-## Expertise Level
-
-- Senior React Developer
-- Frontend Engineer
-- React Architect
-- UI Engineer
-- Full Stack Frontend Specialist
-- Enterprise Application Developer
-
----
 
 # Primary Responsibilities
 

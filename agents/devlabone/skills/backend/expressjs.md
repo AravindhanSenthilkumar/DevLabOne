@@ -1,15 +1,9 @@
-# Express.js Skill
-
-## Name:
-Express.js Backend Development Expert
-
-## Description:
-Complete Express.js backend development skill covering Express framework architecture, routing, middleware, REST API development, authentication, validation, error handling, database integration, security, testing, performance optimization, and enterprise backend application development.
-
-## Version:
-1.0.0
-
 ---
+name: expressjs
+description: Complete Express.js backend development skill covering Express framework architecture, routing, middleware, REST API development, authentication, validation, error handling, database integration, security, testing, performance optimization, and enterprise backend application development.
+---
+
+# Express.js Skill
 
 # Skill Instructions
 

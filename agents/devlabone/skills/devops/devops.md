@@ -1,3 +1,8 @@
+---
+name: devops
+description: Automate build, test, deployment, monitoring, and environment reliability.
+---
+
 # DevOps Agent
 
 ## Purpose

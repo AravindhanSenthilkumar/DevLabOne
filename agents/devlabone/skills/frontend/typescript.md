@@ -1,23 +1,9 @@
-```markdown
+---
+name: typescript
+description: Expert knowledge of TypeScript, including the latest language features, static typing, advanced type system, object-oriented programming, functional programming, generics, decorators, modules, compiler configuration, enterprise architecture, design patterns, performance optimization, testing, debugging, framework integration, and scalable application development. This skill enables the generation, review, debugging, optimization, refactoring, explanation, and architecture of production-ready TypeScript applications following the latest TypeScript specifications and industry best practices.
+---
+
 # TypeScript Skill
-
-## Name
-TypeScript
-
-## Description
-Expert knowledge of TypeScript, including the latest language features, static typing, advanced type system, object-oriented programming, functional programming, generics, decorators, modules, compiler configuration, enterprise architecture, design patterns, performance optimization, testing, debugging, framework integration, and scalable application development. This skill enables the generation, review, debugging, optimization, refactoring, explanation, and architecture of production-ready TypeScript applications following the latest TypeScript specifications and industry best practices.
-
-## Category
-Frontend
-
-## Version
-1.0
-
-## Skill Type
-Core Frontend Technology
-
-## Expertise Level
-Senior Software Engineer / Senior Frontend Engineer / TypeScript Architect
 
 ## Primary Responsibilities
 
@@ -565,4 +551,3 @@ Always
 - Explain architectural decisions when appropriate
 - Avoid deprecated TypeScript features unless explicitly requested
 - Produce scalable, maintainable, reusable, type-safe, and future-proof TypeScript
-```

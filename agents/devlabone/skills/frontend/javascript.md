@@ -1,23 +1,9 @@
-```markdown
+---
+name: javascript
+description: Expert knowledge of modern JavaScript (ES6+), ECMAScript standards, browser APIs, asynchronous programming, object-oriented programming, functional programming, design patterns, performance optimization, security, testing, debugging, and enterprise application development. This skill enables the generation, review, debugging, optimization, refactoring, explanation, and architecture of production-ready JavaScript applications following the latest ECMAScript specifications and industry best practices.
+---
+
 # JavaScript Skill
-
-## Name
-JavaScript (ECMAScript)
-
-## Description
-Expert knowledge of modern JavaScript (ES6+), ECMAScript standards, browser APIs, asynchronous programming, object-oriented programming, functional programming, design patterns, performance optimization, security, testing, debugging, and enterprise application development. This skill enables the generation, review, debugging, optimization, refactoring, explanation, and architecture of production-ready JavaScript applications following the latest ECMAScript specifications and industry best practices.
-
-## Category
-Frontend
-
-## Version
-1.0
-
-## Skill Type
-Core Frontend Technology
-
-## Expertise Level
-Senior Frontend Engineer / Full Stack Engineer / JavaScript Architect
 
 ## Primary Responsibilities
 
@@ -577,4 +563,3 @@ Always
 - Explain architectural decisions when appropriate
 - Avoid deprecated APIs unless explicitly requested
 - Produce scalable, maintainable, reusable, and future-proof JavaScript
-```

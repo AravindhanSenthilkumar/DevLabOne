@@ -1,15 +1,9 @@
-# PostgreSQL Skill
-
-## Name:
-PostgreSQL Database Expert
-
-## Description:
-Complete PostgreSQL database skill covering relational database architecture, advanced SQL, schema design, data modelling, indexing, query optimization, transactions, PostgreSQL administration, security, replication, extensions, JSON handling, performance tuning, cloud deployment, and enterprise database development.
-
-## Version:
-1.0.0
-
 ---
+name: postgresql
+description: Complete PostgreSQL database skill covering relational database architecture, advanced SQL, schema design, data modelling, indexing, query optimization, transactions, PostgreSQL administration, security, replication, extensions, JSON handling, performance tuning, cloud deployment, and enterprise database development.
+---
+
+# PostgreSQL Skill
 
 # Skill Instructions
 
@@ -2730,4 +2724,3 @@ Build PostgreSQL systems that are:
 - Embedding storage designed
 
 ---
-

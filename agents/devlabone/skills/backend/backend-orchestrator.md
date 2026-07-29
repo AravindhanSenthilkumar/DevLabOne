@@ -1,15 +1,9 @@
-# Backend Orchestrator Skill
-
-## Name:
-Backend Orchestrator & Master Backend Architecture Expert
-
-## Description:
-Master orchestrator skill for evaluating, architecting, building, securing, optimizing, and maintaining production-grade backend services, APIs, and microservices across Python (`python.md`, `django.md`) and Node.js (`nodejs.md`, `expressjs.md`) ecosystems. Combines and directs all specialized backend skills in the backend folder to deliver scalable, secure, and resilient server-side applications.
-
-## Version:
-1.0.0
-
 ---
+name: backend-orchestrator
+description: Master orchestrator skill for evaluating, architecting, building, securing, optimizing, and maintaining production-grade backend services, APIs, and microservices across Python (`python.md`, `django.md`) and Node.js (`nodejs.md`, `expressjs.md`) ecosystems. Combines and directs all specialized backend skills in the backend folder to deliver scalable, secure, and resilient server-side applications.
+---
+
+# Backend Orchestrator Skill
 
 # Skill Instructions
 

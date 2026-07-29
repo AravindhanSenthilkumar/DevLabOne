@@ -1,15 +1,9 @@
-# Solution Architect Skill
-
-## Name:
-Solution Architect & Supreme Enterprise Architecture Master
-
-## Description:
-Supreme orchestrator skill for end-to-end software architecture, system design, technology stack evaluation, domain-driven design, and project workflow orchestration across all engineering domains (Business Analysis, UX/UI Design, Frontend, Backend, Database, AI/ML, DevOps, Security, and Quality Assurance). Evaluates business requirements to select the optimal tech stack and deliver resilient, scalable, production-ready enterprise solutions.
-
-## Version:
-1.0.0
-
 ---
+name: solution-architect
+description: Supreme orchestrator skill for end-to-end software architecture, system design, technology stack evaluation, domain-driven design, and project workflow orchestration across all engineering domains (Business Analysis, UX/UI Design, Frontend, Backend, Database, AI/ML, DevOps, Security, and Quality Assurance). Evaluates business requirements to select the optimal tech stack and deliver resilient, scalable, production-ready enterprise solutions.
+---
+
+# Solution Architect Skill
 
 # Skill Instructions
 

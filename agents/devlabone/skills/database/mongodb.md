@@ -1,15 +1,9 @@
-# MongoDB Skill
-
-## Name:
-MongoDB Database Expert
-
-## Description:
-Complete MongoDB database skill covering NoSQL database concepts, document-oriented architecture, schema design, CRUD operations, aggregation pipelines, indexing, performance optimization, replication, sharding, security, cloud deployment, MongoDB administration, and production-ready database development.
-
-## Version:
-1.0.0
-
 ---
+name: mongodb
+description: Complete MongoDB database skill covering NoSQL database concepts, document-oriented architecture, schema design, CRUD operations, aggregation pipelines, indexing, performance optimization, replication, sharding, security, cloud deployment, MongoDB administration, and production-ready database development.
+---
+
+# MongoDB Skill
 
 # Skill Instructions
 

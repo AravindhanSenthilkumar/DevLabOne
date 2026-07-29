@@ -1,15 +1,9 @@
-# Figma Skill
-
-## Name:
-Figma Design Tool Expert
-
-## Description:
-Complete Figma design skill covering UI design, UX workflows, wireframing, prototyping, design systems, components, variants, auto layout, design tokens, developer handoff, collaboration, plugins, responsive layouts, and creating professional product designs for web, mobile, desktop, SaaS, and AI applications.
-
-## Version:
-1.0.0
-
 ---
+name: figma
+description: Complete Figma design skill covering UI design, UX workflows, wireframing, prototyping, design systems, components, variants, auto layout, design tokens, developer handoff, collaboration, plugins, responsive layouts, and creating professional product designs for web, mobile, desktop, SaaS, and AI applications.
+---
+
+# Figma Skill
 
 # Skill Instructions
 

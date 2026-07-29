@@ -1,22 +1,9 @@
+---
+name: css
+description: Expert knowledge of modern CSS, including CSS3, CSS4 specifications, responsive web design, layouts, animations, accessibility, performance optimization, design systems, browser compatibility, and scalable styling architectures. This skill enables the generation, review, debugging, optimization, and refactoring of production-ready CSS following the latest web standards and industry best practices.
+---
+
 # CSS Skill
-
-## Name
-CSS (Cascading Style Sheets)
-
-## Description
-Expert knowledge of modern CSS, including CSS3, CSS4 specifications, responsive web design, layouts, animations, accessibility, performance optimization, design systems, browser compatibility, and scalable styling architectures. This skill enables the generation, review, debugging, optimization, and refactoring of production-ready CSS following the latest web standards and industry best practices.
-
-## Category
-Frontend
-
-## Version
-1.0
-
-## Skill Type
-Core Frontend Technology
-
-## Expertise Level
-Senior Software Engineer / Frontend Architect
 
 ## Primary Responsibilities
 

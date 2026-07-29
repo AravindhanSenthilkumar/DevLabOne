@@ -1,15 +1,9 @@
-# MySQL Skill
-
-## Name:
-MySQL Database Expert
-
-## Description:
-Complete MySQL database skill covering relational database concepts, MySQL architecture, SQL development, database design, schema modelling, queries, indexing, transactions, performance optimization, security, replication, backup strategies, administration, and enterprise database management.
-
-## Version:
-1.0.0
-
 ---
+name: mysql
+description: Complete MySQL database skill covering relational database concepts, MySQL architecture, SQL development, database design, schema modelling, queries, indexing, transactions, performance optimization, security, replication, backup strategies, administration, and enterprise database management.
+---
+
+# MySQL Skill
 
 # Skill Instructions
 

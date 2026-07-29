@@ -1,15 +1,9 @@
-# Database Orchestrator Skill
-
-## Name:
-Database Orchestrator & Master Database Architecture Expert
-
-## Description:
-Master orchestrator skill for evaluating, selecting, designing, modeling, migrating, optimizing, securing, and administering relational (PostgreSQL, MySQL) and NoSQL (MongoDB) databases. Combines and directs all specialized database skills in the database folder to deliver enterprise-grade data architecture, polyglot persistence, zero-downtime migrations, and high-performance queries.
-
-## Version:
-1.0.0
-
 ---
+name: database-orchestrator
+description: Master orchestrator skill for evaluating, selecting, designing, modeling, migrating, optimizing, securing, and administering relational (PostgreSQL, MySQL) and NoSQL (MongoDB) databases. Combines and directs all specialized database skills in the database folder to deliver enterprise-grade data architecture, polyglot persistence, zero-downtime migrations, and high-performance queries.
+---
+
+# Database Orchestrator Skill
 
 # Skill Instructions
 

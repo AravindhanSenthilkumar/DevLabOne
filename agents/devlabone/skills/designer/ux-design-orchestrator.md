@@ -1,15 +1,9 @@
-# UX Design Orchestrator Skill
-
-## Name:
-UX Design Orchestrator & Principal Product Design Expert
-
-## Description:
-Master orchestrator skill for user research, information architecture, wireframing, visual UI design, Figma design systems and operations, interaction design, micro-animations, accessibility (WCAG 2.2), prototyping, usability testing, and developer handoff across web, mobile, desktop, SaaS, and AI-powered applications. Combines and directs all specialized design skills in the designer folder to create user-centered, scalable, and production-ready digital products.
-
-## Version:
-1.0.0
-
 ---
+name: ux-design-orchestrator
+description: Master orchestrator skill for user research, information architecture, wireframing, visual UI design, Figma design systems and operations, interaction design, micro-animations, accessibility (WCAG 2.2), prototyping, usability testing, and developer handoff across web, mobile, desktop, SaaS, and AI-powered applications. Combines and directs all specialized design skills in the designer folder to create user-centered, scalable, and production-ready digital products.
+---
+
+# UX Design Orchestrator Skill
 
 # Skill Instructions
 

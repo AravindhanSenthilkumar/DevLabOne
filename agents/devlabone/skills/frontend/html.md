@@ -1,23 +1,9 @@
-```markdown
+---
+name: html
+description: Expert knowledge of HTML5 and the HTML Living Standard, including semantic markup, document structure, accessibility (WCAG & ARIA), SEO, metadata, forms, multimedia, browser compatibility, performance optimization, structured data, web standards, and modern frontend architecture. This skill enables the generation, review, debugging, optimization, refactoring, and explanation of production-ready HTML for enterprise-grade web applications.
+---
+
 # HTML Skill
-
-## Name
-HTML (HyperText Markup Language)
-
-## Description
-Expert knowledge of HTML5 and the HTML Living Standard, including semantic markup, document structure, accessibility (WCAG & ARIA), SEO, metadata, forms, multimedia, browser compatibility, performance optimization, structured data, web standards, and modern frontend architecture. This skill enables the generation, review, debugging, optimization, refactoring, and explanation of production-ready HTML for enterprise-grade web applications.
-
-## Category
-Frontend
-
-## Version
-1.0
-
-## Skill Type
-Core Frontend Technology
-
-## Expertise Level
-Senior Frontend Engineer / Frontend Architect / Software Engineer
 
 ## Primary Responsibilities
 
@@ -561,4 +547,3 @@ Always
 - Avoid obsolete attributes
 - Follow enterprise coding standards
 - Produce scalable, reusable, and future-proof HTML
-```

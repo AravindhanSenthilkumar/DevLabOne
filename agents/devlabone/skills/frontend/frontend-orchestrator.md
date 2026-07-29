@@ -1,15 +1,9 @@
-# Frontend Orchestrator Skill
-
-## Name:
-Frontend Orchestrator & Master Frontend Architecture Expert
-
-## Description:
-Master orchestrator skill for evaluating, architecting, building, styling, optimizing, securing, testing, and maintaining modern web applications, Single Page Applications (SPAs), Server-Side Rendered (SSR) applications, and Progressive Web Apps (PWAs). Combines and directs all specialized frontend skills in the frontend folder including Angular (`angular.md`), React (`reactJs.md`), Next.js (`nextJs.md`), TypeScript (`typescript.md`), JavaScript (`javascript.md`), HTML5 (`html.md`), CSS3 (`css.md`), and SCSS (`scss.md`).
-
-## Version:
-1.0.0
-
 ---
+name: frontend-orchestrator
+description: Master orchestrator skill for evaluating, architecting, building, styling, optimizing, securing, testing, and maintaining modern web applications, Single Page Applications (SPAs), Server-Side Rendered (SSR) applications, and Progressive Web Apps (PWAs). Combines and directs all specialized frontend skills in the frontend folder including Angular (`angular.md`), React (`reactJs.md`), Next.js (`nextJs.md`), TypeScript (`typescript.md`), JavaScript (`javascript.md`), HTML5 (`html.md`), CSS3 (`css.md`), and SCSS (`scss.md`).
+---
+
+# Frontend Orchestrator Skill
 
 # Skill Instructions
 

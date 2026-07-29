@@ -1,46 +1,9 @@
+---
+name: angular
+description: Expert knowledge of Angular (v2 through the latest stable release), including standalone architecture, dependency injection, signals, RxJS, reactive programming, component architecture, routing, forms, HTTP communication, state management, authentication, authorization, accessibility, security, server-side rendering, hydration, progressive web applications, testing, performance optimization, enterprise architecture, clean architecture, micro frontends, Angular Material, CDK, build optimization, deployment, and modern frontend engineering best practices. This skill enables the generation, review, debugging, optimization, migration, refactoring, documentation, explanation, architecture, testing, deployment, and maintenance of enterprise-grade Angular applications following the latest Angular standards and software engineering principles.
+---
+
 # Angular Skill
-
-## Name
-
-Angular
-
----
-
-## Description
-
-Expert knowledge of Angular (v2 through the latest stable release), including standalone architecture, dependency injection, signals, RxJS, reactive programming, component architecture, routing, forms, HTTP communication, state management, authentication, authorization, accessibility, security, server-side rendering, hydration, progressive web applications, testing, performance optimization, enterprise architecture, clean architecture, micro frontends, Angular Material, CDK, build optimization, deployment, and modern frontend engineering best practices.
-
-This skill enables the generation, review, debugging, optimization, migration, refactoring, documentation, explanation, architecture, testing, deployment, and maintenance of enterprise-grade Angular applications following the latest Angular standards and software engineering principles.
-
----
-
-## Category
-
-Frontend
-
----
-
-## Version
-
-Latest Stable
-
----
-
-## Skill Type
-
-Frontend Framework
-
----
-
-## Expertise Level
-
-- Senior Angular Engineer
-- Senior Frontend Engineer
-- Frontend Architect
-- Software Architect
-- Enterprise Application Developer
-
----
 
 ## Primary Responsibilities
 

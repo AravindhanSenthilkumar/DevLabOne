@@ -1,15 +1,9 @@
-# Python Skill
-
-## Name:
-Python Backend Development Expert
-
-## Description:
-Complete Python development skill covering Python fundamentals, advanced programming, backend development, APIs, frameworks, databases, automation, testing, security, performance optimization, AI integration, and enterprise Python application development.
-
-## Version:
-1.0.0
-
 ---
+name: python
+description: Complete Python development skill covering Python fundamentals, advanced programming, backend development, APIs, frameworks, databases, automation, testing, security, performance optimization, AI integration, and enterprise Python application development.
+---
+
+# Python Skill
 
 # Skill Instructions
 

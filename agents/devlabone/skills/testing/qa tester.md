@@ -1,15 +1,9 @@
-# Full Testing Skill
-
-## Name:
-Complete Software Testing & Quality Engineering Expert
-
-## Description:
-Complete end-to-end software testing skill covering manual testing, automation testing, frontend testing, backend testing, API testing, database testing, mobile testing, desktop testing, performance testing, security testing, accessibility testing, cloud testing, DevOps testing, AI application testing, test strategy, quality engineering, and production readiness validation for all types of software products.
-
-## Version:
-1.0.0
-
 ---
+name: qa-tester
+description: Complete end-to-end software testing skill covering manual testing, automation testing, frontend testing, backend testing, API testing, database testing, mobile testing, desktop testing, performance testing, security testing, accessibility testing, cloud testing, DevOps testing, AI application testing, test strategy, quality engineering, and production readiness validation for all types of software products.
+---
+
+# Full Testing Skill
 
 # Skill Instructions
 

@@ -1,23 +1,9 @@
-```markdown
+---
+name: scss
+description: Expert knowledge of SCSS (Sassy CSS), the most widely used Sass syntax, including variables, mixins, functions, modules, nesting, inheritance, responsive design, design systems, scalable CSS architecture, enterprise styling patterns, performance optimization, theming, maintainability, and modern frontend development best practices. This skill enables the generation, review, debugging, optimization, refactoring, and explanation of production-ready SCSS for enterprise-grade web applications.
+---
+
 # SCSS Skill
-
-## Name
-SCSS (Sassy CSS)
-
-## Description
-Expert knowledge of SCSS (Sassy CSS), the most widely used Sass syntax, including variables, mixins, functions, modules, nesting, inheritance, responsive design, design systems, scalable CSS architecture, enterprise styling patterns, performance optimization, theming, maintainability, and modern frontend development best practices. This skill enables the generation, review, debugging, optimization, refactoring, and explanation of production-ready SCSS for enterprise-grade web applications.
-
-## Category
-Frontend
-
-## Version
-1.0
-
-## Skill Type
-Core Frontend Technology
-
-## Expertise Level
-Senior Frontend Engineer / Frontend Architect / UI Architect
 
 ## Primary Responsibilities
 
@@ -507,4 +493,3 @@ Always
 - Produce reusable, maintainable, scalable, and future-proof SCSS
 - Explain architectural decisions when appropriate
 - Avoid deprecated Sass features unless explicitly requested
-```

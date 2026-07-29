@@ -1,15 +1,9 @@
-# Node.js Skill
-
-## Name:
-Node.js Backend Development Expert
-
-## Description:
-Complete Node.js backend development skill covering Node.js runtime, JavaScript/TypeScript backend programming, asynchronous programming, API development, database integration, authentication, security, performance optimization, testing, deployment, and enterprise backend architecture.
-
-## Version:
-1.0.0
-
 ---
+name: nodejs
+description: Complete Node.js backend development skill covering Node.js runtime, JavaScript/TypeScript backend programming, asynchronous programming, API development, database integration, authentication, security, performance optimization, testing, deployment, and enterprise backend architecture.
+---
+
+# Node.js Skill
 
 # Skill Instructions
 

@@ -1,11 +1,6 @@
-
+---
 name: aiml
-description: >
-  Complete Artificial Intelligence and Machine Learning skill covering
-  Python AI development, mathematics, data science, machine learning,
-  deep learning, NLP, computer vision, generative AI, LLMs, AI agents,
-  MLOps, model deployment, and AI system architecture.
-version: 1.0.0
+description: Complete Artificial Intelligence and Machine Learning skill covering Python AI development, mathematics, data science, machine learning, deep learning, NLP, computer vision, generative AI, LLMs, AI agents, MLOps, model deployment, and AI system architecture.
 ---
 
 # AIML Skill

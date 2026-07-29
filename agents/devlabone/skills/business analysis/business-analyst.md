@@ -1,15 +1,9 @@
-# Business Analyst Skill
-
-## Name:
-Business Analyst & Product Strategy Expert
-
-## Description:
-Complete Business Analyst skill covering business analysis, requirement engineering, stakeholder management, product discovery, business process analysis, user story creation, acceptance criteria, documentation, Agile methodologies, domain analysis, solution evaluation, product strategy, metrics analysis, and AI product analysis for building successful software products.
-
-## Version:
-1.0.0
-
 ---
+name: business-analyst
+description: Complete Business Analyst skill covering business analysis, requirement engineering, stakeholder management, product discovery, business process analysis, user story creation, acceptance criteria, documentation, Agile methodologies, domain analysis, solution evaluation, product strategy, metrics analysis, and AI product analysis for building successful software products.
+---
+
+# Business Analyst Skill
 
 # Skill Instructions
 

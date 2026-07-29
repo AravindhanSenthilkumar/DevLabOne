@@ -1,15 +1,9 @@
-# Django Skill
-
-## Name:
-Django Backend Development Expert
-
-## Description:
-Complete Django development skill covering Django framework architecture, MVT pattern, models, ORM, views, templates, APIs, authentication, security, database integration, Django REST Framework, testing, deployment, scalability, and enterprise Django application development.
-
-## Version:
-1.0.0
-
 ---
+name: django
+description: Complete Django development skill covering Django framework architecture, MVT pattern, models, ORM, views, templates, APIs, authentication, security, database integration, Django REST Framework, testing, deployment, scalability, and enterprise Django application development.
+---
+
+# Django Skill
 
 # Skill Instructions
 

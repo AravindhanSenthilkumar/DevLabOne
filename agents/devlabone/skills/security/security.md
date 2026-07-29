@@ -1,15 +1,9 @@
-# Security Skill
-
-## Name:
-Cyber Security & Application Security Expert
-
-## Description:
-Complete Security skill covering application security, secure software development, web security, API security, cloud security, identity management, network security, database security, DevSecOps, vulnerability management, threat modelling, security testing, compliance, AI security, and enterprise security architecture for building secure software products.
-
-## Version:
-1.0.0
-
 ---
+name: security
+description: Complete Security skill covering application security, secure software development, web security, API security, cloud security, identity management, network security, database security, DevSecOps, vulnerability management, threat modelling, security testing, compliance, AI security, and enterprise security architecture for building secure software products.
+---
+
+# Security Skill
 
 # Skill Instructions
 
